@@ -1,0 +1,29 @@
+drop table login;
+drop table pictures;
+create table login(id char(20), pwd char(20));
+CREATE TABLE pictures (pic_id int, pic_desc  varchar(100), pic  BLOB, primary key(pic_id));
+CREATE SEQUENCE pic_id_sequence;
+
+insert into login values('john', '11111');
+insert into login values('hello', '22222');
+insert into login values('hello', '22222');
+
+insert into login values('hello', '12222');
+insert into login values('hello', '32222');
+insert into login values('hello', '42222');
+insert into login values('hello', '52222');
+
+insert into login values('mary2', '22222');
+insert into login values('mary3', '22222');
+insert into login values('mary4', '22222');
+insert into login values('mary5', '22222');
+insert into login values('mary6', '22222');
+insert into login values('mary7', '22222');
+insert into login values('mary8', '22222');
+insert into login values('mary9', '22222');
+insert into login values('mary0', '22222');
+insert into login values('mary11', '22222');
+insert into login values('mary12', '22222');
+insert into login values('mary13', '22222');
+insert into login values('mary14', '22222');
+

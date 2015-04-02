@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+<TITLE>Search Module</TITLE>
+</HEAD>
+<BODY>
+<!--
+This module will be used by all the registered users to search the database for a list of relevant radiology records and to view medical images with the zoom-in facility.
+-->
+<FORM NAME="SearchForm" ACTION="search servlet" METHOD="post" >
+<P>Enter the information you would like to create a report about</P>
+<TABLE>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Keywords:</I></B></TD>
+<TD><INPUT TYPE="text" NAME="Key" VALUE=""><BR></TD>
+</TR>
+<P><B>Optional</B></P>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Start Date(DD-MMM-YYYY):</I></B></TD>
+<TD><INPUT TYPE="text" NAME="STARTD" VALUE="start"><BR></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>End Date(DD-MMM-YYYY):</I></B></TD>
+<TD><INPUT TYPE="text" NAME="ENDD" VALUE="end"></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

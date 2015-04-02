@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+<TITLE>Upload Module</TITLE>
+</HEAD>
+<BODY>
+<!--
+This module will be used by radiologists to first enter a radiology record, and then to upload medical images into the radiology record. In reality, all radiology images are atomically uploaded from various radiology diagnostic equipments to the database. In this project, however, you are asked to implement this module to upload an image stored in the user's local file system to the database. 
+-->
+<FORM NAME=RecordForm" ACTION="Upload.jsp" METHOD="post" >
+<P>Enter the information you would like to create a report about</P>
+<TABLE>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Patient ID:</I></B></TD>
+<TD><INPUT TYPE="text" NAME="PID" VALUE="Patient ID"><BR></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Doctor ID:</I></B></TD>
+<TD><INPUT TYPE="text" NAME="DID" VALUE="Doctor ID"><BR></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Radiologist ID:</I></B></TD>
+<TD><INPUT TYPE="text" NAME="RID" VALUE="Radiologist ID"><BR></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Test Type:</I></B></TD>
+<TD><INPUT TYPE="text" NAME="TTYPE" VALUE="Test type"><BR></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Prescribing Date(DD-MMM-YYYY):</I></B></TD>
+<TD><INPUT TYPE="text" NAME="PDATE" VALUE="Prescribing Date"></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Test Date(DD-MMM-YYYY):</I></B></TD>
+<TD><INPUT TYPE="text" NAME="TDATE" VALUE="Test Date"></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Diagnosis:</I></B></TD>
+<TD><INPUT TYPE="text" NAME="DIAG" VALUE="Diagnosis"><BR></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Description:</I></B></TD>
+<TD><INPUT TYPE="text" NAME="DESCRIP" VALUE="Description"><BR></TD>
+</TR>
+</TABLE>
+<INPUT TYPE="submit" NAME="USubmit" VALUE="SUBMIT">
+</FORM>
+</BODY>
+</HTML>

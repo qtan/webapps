@@ -1,0 +1,50 @@
+<head>
+<title>OLAP report</title>
+</head>
+<body>
+	<H1>Data Analysis</H1>
+	<form name="" method="post" action="Olap.jsp">
+		<table>
+		<H2>Pick your Option:</H2> 
+			<tr>
+			<td>Patient Name 
+			<input type="checkbox" name="patientid" size="40"value="1"></input> 
+			</td>
+			</tr>
+			<tr>
+			<td>Test Type 
+			<input type="checkbox"name="testtype" size="40" value="1"></input> 
+			</td>
+			</tr>
+			<tr>
+			<td>Time Period
+			<input type="checkbox" name="timeperiod" size="40" value="1"></input> 
+			</tr>
+			</td>
+			
+		</table>
+
+
+		<H2>Order Time Period by:</H2>
+		<tr>
+		<td>
+		<select id = "format" name ="format" >
+		<option value="default"  >Please select the following</option>
+  		<option value="weekly" >weekly</option>
+  		<option value="monthly" >monthly</option>
+  		<option value="yearly" >yearly</option>
+		</select>
+		<br>
+		</td>
+		</tr>
+		</form>
+		<tr>
+		<td>
+		<input type=submit value="Submit" name="submitAnalysis">
+		</td>
+		</tr>
+
+
+</BODY>
+</HTML>
+

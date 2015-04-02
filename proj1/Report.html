@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+<TITLE>Report Module</TITLE>
+</HEAD>
+<BODY>
+<!--
+This module will be used by a system administrator to get the list of all patients with a specified diagnosis for a given time period. For each patient, the list must contain the name, address and phone number of the patient, and testing date of the first radiology record that contains the specified diagnosis. For example, a system administrator shall be able to use this tool to generate the list of all patients who have been diagnosed having breast cancer in 2014.
+-->
+<FORM NAME="ReportForm" ACTION="Report.jsp" METHOD="post" >
+<P>Enter the information you would like to create a report about</P>
+<TABLE>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>diagnosis:</I></B></TD>
+<TD><INPUT TYPE="text" NAME="DIAG" VALUE="userid"><BR></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>Start Date(DD-MMM-YYYY):</I></B></TD>
+<TD><INPUT TYPE="text" NAME="STARTD" VALUE="start"><BR></TD>
+</TR>
+<TR VALIGN=TOP ALIGN=LEFT>
+<TD><B><I>End Date(DD-MMM-YYYY):</I></B></TD>
+<TD><INPUT TYPE="text" NAME="ENDD" VALUE="end"></TD>
+</TR>
+</TABLE>
+
+<INPUT TYPE="submit" NAME="RSubmit" VALUE="SUBMIT">
+</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,13 @@
+<html>
+<head>
+<title> Photo List </title>
+</head>
+<body bgcolor="#000000" text="#cccccc" >
+<center>
+<h3>The List of Images </h3>
+	<%String part = "thumbnail169";%>
+<a href="/proj1/displayblob.jsp?"<%=part%>>
+<img src="/proj1/displayblob.jsp?"<%=part%>></a>
+
+</body>
+</html>
